@@ -1,0 +1,85 @@
+section{
+    background-color: black;
+    background-size: flex;
+    border: black;
+}
+
+h4{
+    text-align: center;
+}
+
+.topBox {
+    display: flex;
+    border: 1px solid black;
+    height: 50px
+}
+
+.leftTopBox {
+    background-color: green;
+    flex: 1;
+}
+
+.rightTopBox {
+    background-color: grey;
+    flex: 1;
+}
+
+
+.signUp{
+    display: flex;
+    border: 1px solid blue;
+    height: 50px;
+}
+
+.textSign{
+    color: white;
+    text-align: center;
+}
+
+
+.input{
+    display: flex;
+    border: 1px solid red;
+    height: 50px;
+}
+
+.firstNameInput, .lastNameInput{
+    flex:1;
+    height: 50px;
+    justify-content: space-between;
+    width: 400px;
+}
+
+
+
+.email{
+    display: flex;
+    border: 1px solid red;
+    height: 50px;
+}
+
+.emailInput{
+    flex:1;
+    height: 50px;
+    width: 400px;
+}
+
+
+.password{
+    display: flex;
+    border: 1px solid red;
+    height: 50px;
+}
+
+.passwordInput{
+    flex:1;
+    height: 50px;
+    width: 400px;
+}
+
+button {
+    height: 50px;
+    width: 400px;
+    font-size: 20px; /* Add this line to adjust the font size */
+    align-items: center;
+}
